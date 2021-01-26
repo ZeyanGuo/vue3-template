@@ -36,7 +36,7 @@
     "typescript": "~3.9.3"
   },
   "lint-staged": {
-    "*.{js,jsx,vue}": [
+    "*.{,js,jsx,ts,tsx,vue}": [
       "vue-cli-service lint"
     ]
   },
