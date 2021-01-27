@@ -1,7 +1,17 @@
 import { createRouter, createWebHistory } from "vue-router";
-// import Blog from '@/views/home/index.vue';
+import Home from "@/views/home/Home.vue";
+import Login from "@/views/login/Login.vue";
 
 export default createRouter({
   history: createWebHistory(),
-  routes: [],
+  routes: [
+    {
+      path: "/",
+      component: Home,
+    },
+    {
+      path: "/login",
+      component: Login,
+    },
+  ],
 });

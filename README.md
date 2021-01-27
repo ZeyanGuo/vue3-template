@@ -1,24 +1,26 @@
 # vue3-template
 
-## Project setup
-```
-yarn install
+## Summary
+
+This is a vue3 template for develop vue3 project.
+
+Right now, we integrate [lint-stage](https://github.com/okonet/lint-staged), [Eslint](https://github.com/eslint/eslint), [Typescript](https://github.com/microsoft/TypeScript), [prettier](https://github.com/prettier/prettier), [husky](https://github.com/typicode/husky) in this project, you can clone and use it with out any other configuration.
+
+Holp this template can help you to improve your production efficiency.
+
+## How to use it
+
+```shell
+# start project
+npm run start
+
+# build project
+npm run build
+
+# lint project
+npm run lint
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Style Guide
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Please keep to [Style Guide](https://vue3js.cn/docs/style-guide/) when you start using this template for development
