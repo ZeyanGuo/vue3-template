@@ -24,3 +24,7 @@ npm run lint
 ## Style Guide
 
 Please keep to [Style Guide](https://vue3js.cn/docs/style-guide/) when you start using this template for development
+
+## How to git commit
+
+Please use `yarn cz` to commit code, we use the [commitizen](https://github.com/commitizen/cz-cli) and [commitlint](https://github.com/conventional-changelog/commitlint) to regular your commit message

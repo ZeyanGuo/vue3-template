@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "build": "vue-cli-service build",
+    "build:report": "vue-cli-service build --report",
     "lint": "vue-cli-service lint",
     "start": "vue-cli-service serve",
-    "cz": "vue-cli-service lint && git-cz"
+    "inspect": "vue-cli-service inspect",
+    "cz": "git-cz"
   },
   "dependencies": {
     "axios": "^0.21.1",
